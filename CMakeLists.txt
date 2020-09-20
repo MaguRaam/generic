@@ -3,4 +3,4 @@ set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 project(Generic)
-add_executable(template_metaprogram template_metaprogram.cc)
+add_executable(expression_templates tmp/expression_templates.cc)
