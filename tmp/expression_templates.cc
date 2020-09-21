@@ -106,11 +106,15 @@ scalar_product<Scalar, Vector> operator*(const Scalar &a, const Vector &v)
 	return {a, v};
 }
 
+//Assignment Operator:
+
+
+
 int main()
 {
 	vector<int> x{1, 2, 2, 3}, y(x), z(x);
-	vector<int> ans{0, 0, 0};
-	ans = x + y + z;
+	vector<int> ans{0, 0, 0, 0};
+	ans = x + 100*y + z;
 
 	std::cout << ans << std::endl;
 
